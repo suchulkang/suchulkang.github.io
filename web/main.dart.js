@@ -108484,11 +108484,11 @@ $2(a,b){var s=A.y0().ax[b]
 return A.dq(A.b([A.aUo(A.y0(),b,s)],t.p),B.z,B.ab,B.C)},
 $S:236}
 A.az9.prototype={
-$0(){var s=0,r=A.o(t.P),q,p
+$0(){var s=0,r=A.o(t.P),q
 var $async$$0=A.p(function(a,b){if(a===1)return A.l(b,r)
 while(true)switch(s){case 0:q=t.N
-p=A.a0(["solutionType","visual"],q,q)
-A.ajP($.bo(),"/CameraView.dart",p,t.z)
+A.a0(["solutionType","visual"],q,q)
+A.ajP($.bo(),"/web.dart",null,t.z)
 return A.m(null,r)}})
 return A.n($async$$0,r)},
 $S:36}
