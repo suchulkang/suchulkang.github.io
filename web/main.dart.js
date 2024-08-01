@@ -95663,7 +95663,7 @@ s=A.bJ("main_ex_txt")
 r=this.d3$
 q=r.rx
 q=q==null?o:q.dk(o)
-q=A.c9(A.cO(s+"8888",q,o),o,o)
+q=A.c9(A.cO(s+"9999",q,o),o,o)
 s=A.as7(o,200*$.aI().gbe(),new A.axX(),A.bJ("main_score_button"))
 p=$.aI().gbe()
 return A.tH(o,A.dh(A.b([q,s,A.as7(r.y.gl(0),200*p,new A.axY(),A.bJ("main_visual_button"))],t.p),B.x,B.en,B.y))},
@@ -96048,10 +96048,15 @@ A.uj.prototype={
 Z(){var s=null,r=A.PO(s,!0,s,s,s,s,s,"camera; microphone",!0,s,s,s,s,!1,s,s,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)
 return new A.a3n(new A.bN(s,t.A),r,new A.UO(B.WA,$.b8()),B.i)}}
 A.a3n.prototype={
-a7w(a){var s=window.navigator.userAgent.toLowerCase()
-A.cR(a,null,t.w).w.a.geB()
-if(B.c.t(s,"mobile")||B.c.t(s,"android")||B.c.t(s,"iphone")||B.c.t(s,"tablet")||B.c.t(s,"ipad"))this.a7(new A.aCH(this))
-else this.a7(new A.aCI(s))},
+a7w(a){var s,r=window.navigator.userAgent.toLowerCase(),q=A.cR(a,null,t.w).w.a.geB()
+if(!B.c.t(r,"mobile"))if(!B.c.t(r,"android"))if(!B.c.t(r,"iphone"))if(!B.c.t(r,"tablet"))if(!B.c.t(r,"ipad"))s=q>=600&&q<1024
+else s=!0
+else s=!0
+else s=!0
+else s=!0
+else s=!0
+if(s)this.a7(new A.aCH(this))
+else this.a7(new A.aCI(r))},
 a5(){this.an()
 $.aE.p1$.push(new A.aD_(this))
 var s=window
