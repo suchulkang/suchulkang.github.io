@@ -95665,7 +95665,7 @@ s=A.bJ("main_ex_txt")
 r=this.d3$
 q=r.rx
 q=q==null?o:q.dk(o)
-q=A.c9(A.cP(s+"1212",q,o),o,o)
+q=A.c9(A.cP(s+"1313",q,o),o,o)
 s=A.as7(o,200*$.aF().gbe(),new A.axX(),A.bJ("main_score_button"))
 p=$.aF().gbe()
 return A.tH(o,A.dh(A.b([q,s,A.as7(r.y.gl(0),200*p,new A.axY(),A.bJ("main_visual_button"))],t.p),B.x,B.en,B.y))},
@@ -96053,10 +96053,9 @@ A.a3n.prototype={
 a7x(a){var s=window.navigator.userAgent.toLowerCase(),r=t.w,q=A.cK(a,null,r).w.a.geB()
 A.cK(a,null,r).w.a.gXw()
 if(B.c.t(s,"mobile")||B.c.t(s,"android")||B.c.t(s,"iphone"))this.a6(new A.aCH())
-else{if(!B.c.t(s,"ipad"))if(!B.c.t(s,"tablet"))if(q>=600)r=!1
+else{if(q>=600)if(q<900)r=B.c.t(s,"ipad")||!B.c.t(s,"macintosh")
 else r=!1
-else r=!0
-else r=!0
+else r=!1
 if(r)this.a6(new A.aCI())
 else this.a6(new A.aCJ())}},
 a5(){this.an()
