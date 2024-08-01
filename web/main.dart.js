@@ -96050,12 +96050,10 @@ A.uj.prototype={
 Z(){var s=null,r=A.PO(s,!0,s,s,s,s,s,"camera; microphone",!0,s,s,s,s,!1,s,s,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)
 return new A.a3n(new A.bN(s,t.A),r,new A.UO(B.WA,$.b8()),B.i)}}
 A.a3n.prototype={
-a7x(a){var s=window.navigator.userAgent.toLowerCase(),r=t.w,q=A.cK(a,null,r).w.a.geB()
-A.cK(a,null,r).w.a.gXw()
+a7x(a){var s=window.navigator.userAgent.toLowerCase(),r=t.w,q=A.cK(a,null,r).w.a.geB(),p=A.cK(a,null,r).w.a.gXw()
 if(B.c.t(s,"mobile")||B.c.t(s,"android")||B.c.t(s,"iphone"))this.a6(new A.aCH())
-else{if(q>=600)if(q<900)r=B.c.t(s,"ipad")||!B.c.t(s,"macintosh")
-else r=!1
-else r=!1
+else{if(!B.c.t(s,"ipad"))r=q>=600&&p<1024
+else r=!0
 if(r)this.a6(new A.aCI())
 else this.a6(new A.aCJ())}},
 a5(){this.an()
