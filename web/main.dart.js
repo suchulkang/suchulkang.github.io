@@ -29146,8 +29146,10 @@ _.a=null
 _.b=d
 _.c=null},
 aCH:function aCH(){},
-aCI:function aCI(){},
-aCJ:function aCJ(){},
+aCI:function aCI(a,b){this.a=a
+this.b=b},
+aCJ:function aCJ(a,b){this.a=a
+this.b=b},
 aD0:function aD0(a){this.a=a},
 aD1:function aD1(){},
 aD_:function aD_(){},
@@ -95665,7 +95667,7 @@ s=A.bJ("main_ex_txt")
 r=this.d3$
 q=r.rx
 q=q==null?o:q.dk(o)
-q=A.c9(A.cP(s+"1313",q,o),o,o)
+q=A.c9(A.cP(s+"1515",q,o),o,o)
 s=A.as7(o,200*$.aF().gbe(),new A.axX(),A.bJ("main_score_button"))
 p=$.aF().gbe()
 return A.tH(o,A.dh(A.b([q,s,A.as7(r.y.gl(0),200*p,new A.axY(),A.bJ("main_visual_button"))],t.p),B.x,B.en,B.y))},
@@ -96054,8 +96056,8 @@ a7x(a){var s=window.navigator.userAgent.toLowerCase(),r=t.w,q=A.cK(a,null,r).w.a
 if(B.c.t(s,"mobile")||B.c.t(s,"android")||B.c.t(s,"iphone"))this.a6(new A.aCH())
 else{if(!B.c.t(s,"ipad"))r=q>=600&&p<1024
 else r=!0
-if(r)this.a6(new A.aCI())
-else this.a6(new A.aCJ())}},
+if(r)this.a6(new A.aCI(p,q))
+else this.a6(new A.aCJ(p,q))}},
 a5(){this.an()
 $.aE.p1$.push(new A.aD0(this))
 var s=window
@@ -96076,15 +96078,18 @@ s===$&&A.a()
 A.kY(s.a.a/2,"\ubaa8\ubc14\uc77c \uc785\ub2c8\ub2e4 ")},
 $S:0}
 A.aCI.prototype={
-$0(){var s=$.aF().d
-s===$&&A.a()
-A.kY(s.a.a/2,"\ud14c\ube14\ub9bf \uc785\ub2c8\ub2e4 ")},
+$0(){var s=B.d.j(this.a),r=B.d.j(this.b),q=$.aF().d
+q===$&&A.a()
+A.kY(q.a.a/2,"\ud14c\ube14\ub9bf \uc785\ub2c8\ub2e4  :longestSide: "+s+"shortestSide :"+r)},
 $S:0}
 A.aCJ.prototype={
-$0(){A.Cj($.b9())
-var s=$.aF().d
-s===$&&A.a()
-A.kY(s.a.a/2,"\ub370\uc2a4\ud06c \ud0d1\uc785\ub2c8\ub2e4 ")},
+$0(){var s,r,q
+A.Cj($.b9())
+s=B.d.j(this.a)
+r=B.d.j(this.b)
+q=$.aF().d
+q===$&&A.a()
+A.kY(q.a.a/2,"\ub370\uc2a4\ud06c \ud0d1\uc785\ub2c8\ub2e4 : longestSide: "+s+"shortestSide :"+r)},
 $S:0}
 A.aD0.prototype={
 $1(a){var s=this.a,r=s.c
