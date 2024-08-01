@@ -96043,8 +96043,9 @@ A.uj.prototype={
 Z(){var s=null,r=A.PN(s,!0,s,s,s,s,s,"camera; microphone",!0,s,s,s,s,!1,s,s,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)
 return new A.a3m(new A.bN(s,t.A),r,new A.UN(B.WA,$.b8()),B.i)}}
 A.a3m.prototype={
-a7w(a){var s=window.navigator.userAgent.toLowerCase(),r=A.cR(a,null,t.w).w.a.geB()
-if(B.c.t(s,"mobile")||B.c.t(s,"android")||B.c.t(s,"iphone")||r<600)this.a7(new A.aCH(this))
+a7w(a){var s=window.navigator.userAgent.toLowerCase()
+A.cR(a,null,t.w).w.a.geB()
+if(B.c.t(s,"mobile")||B.c.t(s,"android")||B.c.t(s,"iphone"))this.a7(new A.aCH(this))
 else this.a7(new A.aCI())},
 a5(){this.an()
 $.aE.p1$.push(new A.aCZ(this))
