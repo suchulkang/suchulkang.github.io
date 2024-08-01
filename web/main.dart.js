@@ -95658,7 +95658,7 @@ s=A.bJ("main_ex_txt")
 r=this.d3$
 q=r.rx
 q=q==null?o:q.dk(o)
-q=A.c9(A.cO(s+"5555",q,o),o,o)
+q=A.c9(A.cO(s+"7777",q,o),o,o)
 s=A.as7(o,200*$.aI().gbe(),new A.axX(),A.bJ("main_score_button"))
 p=$.aI().gbe()
 return A.tH(o,A.dh(A.b([q,s,A.as7(r.y.gl(0),200*p,new A.axY(),A.bJ("main_visual_button"))],t.p),B.x,B.en,B.y))},
