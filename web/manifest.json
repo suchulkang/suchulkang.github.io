@@ -1,11 +1,11 @@
 {
-    "name": "test2",
-    "short_name": "test2",
+    "name": "flutter_inappwebview_example",
+    "short_name": "flutter_inappwebview_example",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Demonstrates how to use the flutter_inappwebview plugin.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
