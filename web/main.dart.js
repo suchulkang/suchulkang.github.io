@@ -96061,7 +96061,7 @@ r.toString
 A.uu(r,"message",new A.aCY(),!1,t.SA)
 this.r=null},
 m(){this.ab()},
-J(a){var s=this,r=null,q=A.aEM(a,A.bJ("score_title")),p=A.aIw(r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,A.lT("http://localhost:3000")),o=A.b([],t.F4),n=A.b04(!0),m=new A.agz()
+J(a){var s=this,r=null,q=A.aEM(a,A.bJ("score_title")),p=A.aIw(r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,A.lT("https://www.daum.net/")),o=A.b([],t.F4),n=A.b04(!0),m=new A.agz()
 m.a=n
 p=A.b01(m,s.f,p,new A.nw(o,t._W),s.d,new A.aCL(),new A.aCM(s),new A.aCN(s),new A.aCP(),new A.aCQ(s),new A.aCR(s),new A.aCS(s),new A.aCT(s),s.r,new A.aCU())
 o=s.y
