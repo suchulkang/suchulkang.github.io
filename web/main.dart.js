@@ -96053,7 +96053,8 @@ A.a3n.prototype={
 a7x(a){var s=window.navigator.userAgent.toLowerCase(),r=t.w,q=A.cK(a,null,r).w.a.geB()
 A.cK(a,null,r).w.a.gXw()
 if(B.c.t(s,"mobile")||B.c.t(s,"android")||B.c.t(s,"iphone"))this.a6(new A.aCH())
-else{if(!B.c.t(s,"ipad"))if(!B.c.t(s,"tablet"))r=q>=600&&q<900
+else{if(!B.c.t(s,"ipad"))if(!B.c.t(s,"tablet"))if(q>=600)r=!1
+else r=!1
 else r=!0
 else r=!0
 if(r)this.a6(new A.aCI())
