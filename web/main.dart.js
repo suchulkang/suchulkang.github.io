@@ -96054,7 +96054,7 @@ s.toString
 A.uu(s,"message",new A.aCZ(),!1,t.SA)
 this.r=null},
 m(){this.ab()},
-J(a){var s=this,r=null,q=A.aEN(a,A.bJ("score_title11")),p=A.aIx(r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,A.lS("https://m.daum.net")),o=A.b([],t.F4),n=A.b05(!0),m=new A.agz()
+J(a){var s=this,r=null,q=A.aEN(a,A.bJ("score_title11")),p=A.aIx(r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,A.lS("https://laonpeople.com/")),o=A.b([],t.F4),n=A.b05(!0),m=new A.agz()
 m.a=n
 p=A.b02(m,s.f,p,new A.nw(o,t._W),s.d,new A.aCM(),new A.aCN(s),new A.aCO(s),new A.aCQ(),new A.aCR(s),new A.aCS(s),new A.aCT(s),new A.aCU(s),s.r,new A.aCV())
 o=s.y
