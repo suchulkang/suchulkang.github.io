@@ -96090,7 +96090,7 @@ s.toString
 A.ut(s,"message",new A.aD5(),!1,t.SA)
 this.r=null},
 m(){this.ab()},
-J(a){var s=this,r=null,q=A.aEV(a,A.bM("score_title")),p=A.aIF(r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,A.lU("https://laonpeople.com/")),o=A.b([],t.F4),n=A.b0d(!0),m=new A.agA()
+J(a){var s=this,r=null,q=A.aEV(a,A.bM("score_title")),p=A.aIF(r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,A.lU("http://10.10.110.43:3000")),o=A.b([],t.F4),n=A.b0d(!0),m=new A.agA()
 m.a=n
 p=A.b0a(m,s.f,p,new A.nw(o,t._W),s.d,new A.aCR(),new A.aCS(s),new A.aCT(s),new A.aCV(),new A.aCW(s),new A.aCX(s),new A.aCY(s),new A.aCZ(s),s.r,new A.aD_())
 o=s.y
