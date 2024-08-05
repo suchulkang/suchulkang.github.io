@@ -5,23 +5,23 @@ found in the LICENSE file. -->
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="An example of the camera on the web.">
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="An example of the camera on the web.">
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="example">
-  <meta name="permissions-policy" content="camera=(self)">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="example">
+    <meta name="permissions-policy" content="camera=(self)">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
-  <title>Camera Web Example</title>
-  <link rel="manifest" href="manifest.json">
-  <script type="application/javascript" src="assets/packages/flutter_inappwebview_web/assets/web/web_support.js" defer></script>
+    <title>Camera Web Example</title>
+    <link rel="manifest" href="manifest.json">
+    <script type="application/javascript" src="assets/packages/flutter_inappwebview_web/assets/web/web_support.js" defer></script>
 
 </head>
 
@@ -29,24 +29,24 @@ found in the LICENSE file. -->
 <!-- This script installs service_worker.js to provide PWA functionality to
      application. For more information, see:
      https://developers.google.com/web/fundamentals/primers/service-workers -->
-  <script>
+<script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=1654095449');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=3227759494');
       });
     }
-  </script>
-<script>
-  async function  () {
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ video: true });
-      console.log('Camera permission granted:', stream);
-      // 여기서 Flutter 앱으로 메시지를 전송하여 카메라 접근을 시작하도록 합니다.
-    } catch (error) {
-      console.error('Camera permission denied:', error);
-    }
-  }
 </script>
+<!--<script>-->
+<!--  async function  () {-->
+<!--    try {-->
+<!--      const stream = await navigator.mediaDevices.getUserMedia({ video: true });-->
+<!--      console.log('Camera permission granted:', stream);-->
+<!--      // 여기서 Flutter 앱으로 메시지를 전송하여 카메라 접근을 시작하도록 합니다.-->
+<!--    } catch (error) {-->
+<!--      console.error('Camera permission denied:', error);-->
+<!--    }-->
+<!--  }-->
+<!--</script>-->
 <script src="main.dart.js" type="application/javascript"></script>
 </body>
 
