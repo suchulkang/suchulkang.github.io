@@ -27901,8 +27901,7 @@ _.z=c
 _.a=null
 _.b=d
 _.c=null},
-axn:function axn(a,b){this.a=a
-this.b=b},
+axn:function axn(a){this.a=a},
 axo:function axo(a,b){this.a=a
 this.b=b},
 axp:function axp(){},
@@ -90543,7 +90542,7 @@ return new A.a0M(new A.bU(s,t.B),r,new A.SH(B.TG,$.b4()),B.k)}}
 A.a0M.prototype={
 a4Q(a){var s,r,q=window.navigator.userAgent.toLowerCase(),p=t.w,o=A.cD(a,null,p).w.a.gep(),n=A.cD(a,null,p).w.a.gVL(),m=A.cD(a,null,p).w.a.a
 p=!B.c.t(q,"mobile")
-if(!p||B.c.t(q,"android")||B.c.t(q,"iphone"))this.ap(new A.axn(n,o))
+if(!p||B.c.t(q,"android")||B.c.t(q,"iphone"))this.ap(new A.axn(q))
 else{s=!B.c.t(q,"ipad")
 if(s)r=o>=600&&n<1200
 else r=!0
@@ -90571,9 +90570,9 @@ o=o<1?A.aVw(r,o,r):A.bA(r,r,B.j,r,r,r,r,r,r,r,r,r,r,r)
 n=t.p
 return A.rN(q,A.ajR(!0,A.dQ(A.b([A.aBQ(A.jj(B.b9,A.b([p,o],n),B.T,B.b7),1),new A.Kp(B.e1,A.b([A.aBM(A.m4(B.mO,r,r,r),new A.axE(s)),A.aBM(A.m4(B.Io,r,r,r),new A.axF(s)),A.aBM(A.m4(B.Is,r,r,r),new A.axx(s))],n),r)],n),B.H,B.a7,B.I),!0,B.a6,!0,!0))}}
 A.axn.prototype={
-$0(){var s=B.d.j(this.a),r=B.d.j(this.b),q=$.aR().d
-q===$&&A.a()
-A.Jj(q.a.a/2,"\ubaa8\ubc14\uc77c \uc785\ub2c8\ub2e4  :longestSide: "+s+" shortestSide :"+r)},
+$0(){var s=$.aR().d
+s===$&&A.a()
+A.Jj(s.a.a/2,"\ubaa8\ubc14\uc77c \uc785\ub2c8\ub2e4  :longestSide: "+this.a)},
 $S:0}
 A.axo.prototype={
 $0(){var s=B.d.j(this.a),r=B.d.j(this.b),q=$.aR().d
