@@ -90541,13 +90541,12 @@ af(){var s=null,r=A.Nz(s,!0,s,s,s,s,s,"camera; microphone",!0,s,s,s,s,!1,s,s,!1,
 return new A.a0M(new A.bU(s,t.B),r,new A.SH(B.TG,$.b4()),B.k)}}
 A.a0M.prototype={
 a4Q(a){var s,r,q=window.navigator.userAgent.toLowerCase(),p=t.w,o=A.cD(a,null,p).w.a.gep(),n=A.cD(a,null,p).w.a.gVL(),m=A.cD(a,null,p).w.a.a
-p=!B.c.t(q,"mobile")
-if(!p||B.c.t(q,"android")||B.c.t(q,"iphone"))this.ap(new A.axn(q))
-else{s=!B.c.t(q,"ipad")
-if(s)r=o>=600&&n<1200
-else r=!0
-if(r)this.ap(new A.axo(n,o))
-else{if(s)if(!(B.c.t(q,"android")&&p))p=m>=600&&m<1024
+if(o<600||B.c.t(q,"android")||B.c.t(q,"iphone"))this.ap(new A.axn(q))
+else{p=!B.c.t(q,"ipad")
+if(p)s=o>=600&&n<1200
+else s=!0
+if(s)this.ap(new A.axo(n,o))
+else{if(p)if(!(B.c.t(q,"android")&&!B.c.t(q,"mobile")))p=m>=600&&m<1024
 else p=!0
 else p=!0
 if(p){p=B.d.j(n)
