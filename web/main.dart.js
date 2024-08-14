@@ -90124,7 +90124,7 @@ s=A.bD("main_ex_txt")
 r=this.d5$
 q=r.rx
 q=q==null?o:q.ds(o)
-q=A.fo(A.dZ(s+"1212",q,o),o,o)
+q=A.fo(A.dZ(s+"7777",q,o),o,o)
 s=A.ao6(o,200*$.aR().gbf(),new A.ato(),A.bD("main_score_button"))
 p=$.aR().gbf()
 return A.rN(o,A.dQ(A.b([q,s,A.ao6(r.y.gl(0),200*p,new A.atp(),A.bD("main_visual_button"))],t.p),B.H,B.e3,B.I))},
